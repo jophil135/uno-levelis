@@ -1,0 +1,10 @@
+{
+  "name": "uno-leveling",
+  "version": "2.0.0",
+  "private": true,
+  "description": "UNO LEVELING — discipline, consistency and personal progression platform",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js", "check": "node --check server.js && node --check public/app.js && node --check public/admin.js",
+    "test": "node qa-smoke.js"},
+  "engines": {"node": ">=20"}
+}
